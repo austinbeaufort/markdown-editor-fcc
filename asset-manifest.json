@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/markdown-editor-fcc/static/css/main.47d80695.chunk.css",
+    "main.js": "/markdown-editor-fcc/static/js/main.1b4fa72b.chunk.js",
+    "main.js.map": "/markdown-editor-fcc/static/js/main.1b4fa72b.chunk.js.map",
+    "runtime~main.js": "/markdown-editor-fcc/static/js/runtime~main.a0c3d3db.js",
+    "runtime~main.js.map": "/markdown-editor-fcc/static/js/runtime~main.a0c3d3db.js.map",
+    "static/js/2.b5b1d605.chunk.js": "/markdown-editor-fcc/static/js/2.b5b1d605.chunk.js",
+    "static/js/2.b5b1d605.chunk.js.map": "/markdown-editor-fcc/static/js/2.b5b1d605.chunk.js.map",
+    "index.html": "/markdown-editor-fcc/index.html",
+    "precache-manifest.278d5d75082048870f3db5e5f5587ebe.js": "/markdown-editor-fcc/precache-manifest.278d5d75082048870f3db5e5f5587ebe.js",
+    "service-worker.js": "/markdown-editor-fcc/service-worker.js",
+    "static/css/main.47d80695.chunk.css.map": "/markdown-editor-fcc/static/css/main.47d80695.chunk.css.map"
+  }
+}
