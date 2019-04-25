@@ -1,33 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Capriola|Sansita');
+
 .App {
+  font-family: 'Capriola', sans-serif;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  justify-content: space-evenly;
+  background-image: url('https://i.pinimg.com/originals/90/88/39/908839b4b7b5dfc78d0aba177641d42f.jpg');
+}
+
+.preview {
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.prevBack, .textBack {
+  border-left: 5px solid darkgreen;
+  border-right: 5px solid darkgreen;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgba(226, 255, 226, 0.7);
+  height: 1000px;
+}
+
+.prevBack {
+  font-size: 1rem;
+  padding-top: 1px;
+}
+
+
+.preview ol, .preview h3{
+  text-align: left;
+}
+
+.preview ol {
+  padding-left: 50px;
+}
+
+.preview h3 {
+  padding-left: 20px;
+}
+
+.editor {
+  margin-left: 5px;
+}
+
+.prevTitle {
+  border-bottom: 5px solid brown;
+}
+
+.edTitle {
+  border-bottom: 5px solid brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------TEXTAREA STYLING -------------------- */
+.input {
+  font-family: 'Capriola', sans-serif;
+  padding: 10px 10px;
+  padding-top: 25px;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+}
+.input:focus {
+  outline: none;
+}
+.pop {
+  transition: 0.3s ease;
+  border-radius: 2px;
+}
+.popE {
+  background-color: rgba(45, 0, 207, 0.5);
+  border: 2px solid rgb(247, 207, 255);
+  box-shadow: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.popE:focus {
+  box-shadow: 0px 0px 20px rgb(110, 0, 138);
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 215, 255, 0.7);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 700) {
+  .input {
+    width: 400px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 768px) {
+  .App {
+    flex-direction: row;
+  }
+
+  .input {
+    font-size: 20px;
+    height: 978px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .input {
+    width: 500px;
   }
 }
